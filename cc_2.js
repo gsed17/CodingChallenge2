@@ -9,3 +9,13 @@ scores[1] = 95; // Update the second score
 const averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
 console.log("Updated Scores:", scores);
 console.log("Average Score:", averageScore);
+// Task 3 - Employee Records
+let employee = {
+    name: "John Doe",
+    age: 30,
+    department: "Sales",
+    isActive: true
+};
+employee.department = "Marketing"; // Update department
+employee.position = "Manager"; // Add new property
+console.log("Updated Employee Record:", employee);
